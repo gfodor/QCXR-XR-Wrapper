@@ -10,6 +10,7 @@
 /QC_BackUpThisFolder_ButDontShipItWithYourGame/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/BuildLogs/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

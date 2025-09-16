@@ -9,8 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: cb82358db34ccc54cb5c477289cc8315
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4e124bb0e8fb02443a6b9990c306530f,
-      type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 5903e382a19d15a4fa195f5da5434b32,
       type: 2}
     Unity.XR.Pimax.Settings: {fileID: 11400000, guid: 7ccdb14299a6b844c98b299a20ae593c,
