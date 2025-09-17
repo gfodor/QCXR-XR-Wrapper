@@ -85,23 +85,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9427557482496
-    m_Localized: "Willkommen bei QuestCraft!\nBevor du in das Haupterlebnis starten
+    m_Localized: "Willkommen bei PortalCraft!\nBevor du in das Haupterlebnis starten
       kannst, m\xFCssen wir mit dir \xFCber einige Informationen gehen, unter anderem
       unsere EULA und Datenschutzrichtlinie.\n\nZuallererst m\xFCssen wir darauf
-      hinweisen, dass QuestCraft, QCXR, Digital Genesis und alle in QuestCraft enthaltenen
+      hinweisen, dass PortalCraft, QCXR, Portal VR, Inc. und alle in PortalCraft enthaltenen
       Mods KEIN offizielles Minecraft-Produkt oder -Service sind. Wir sind weder
       von Mojang noch von Microsoft anerkannt oder mit ihnen verbunden. Jegliche
-      Probleme, die QuestCraft betreffen oder damit in Verbindung stehen, sind NUR
-      den QuestCraft-Mitarbeitern und dem Support zu melden, einschlie\xDFlich Problemen
+      Probleme, die PortalCraft betreffen oder damit in Verbindung stehen, sind NUR
+      den PortalCraft-Mitarbeitern und dem Support zu melden, einschlie\xDFlich Problemen
       mit Mods, Servern und Bibliotheken von Dritten."
     m_Metadata:
       m_Items: []
   - m_Id: 9491252183040
-    m_Localized: "Copyright-Hinweis\nQuestCraft nutzt viele Minecraft-Modifikationen
+    m_Localized: "Copyright-Hinweis\nPortalCraft nutzt viele Minecraft-Modifikationen
       von Drittanbietern sowie Open-Source-Bibliotheken, um unseren Spielern eine
       funktionale und reibungslose Erfahrung zu bieten. Diese k\xF6nnen auf GitHub
-      (https://github.com/QuestCraftPlusPlus/) oder auf der QuestCraft-Website unter
-      https://questcraft.org/open-source/ eingesehen werden."
+      (https://github.com/QuestCraftPlusPlus/) oder auf der PortalCraft-Website unter
+      https://portalvr.io/open-source/ eingesehen werden."
     m_Metadata:
       m_Items: []
   - m_Id: 9721599164416

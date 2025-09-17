@@ -119,7 +119,7 @@ public class ModManager : MonoBehaviour
                          "&limit=20";
 
             UnityWebRequest queryDownload = UnityWebRequest.Get(url);
-            queryDownload.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+            queryDownload.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
             queryDownload.SendWebRequest();
 
             while (!queryDownload.isDone)
@@ -320,7 +320,7 @@ public class ModManager : MonoBehaviour
         Debug.Log($"modName: {mp.title} | modUrl: {file.url} | modVersion: {currentInstanceVer} | modPath: {path}");
         
         UnityWebRequest modpackFile = UnityWebRequest.Get(file.url);
-        modpackFile.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+        modpackFile.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
         DownloadHandlerFile dh = new DownloadHandlerFile(path);
         dh.removeFileOnAbort = true;
         modpackFile.downloadHandler = dh;

@@ -30,7 +30,7 @@ public class LoginText : MonoBehaviour
         
         if (loginText.text.Contains("UnknownHostException"))
         {
-            loginText.text = "<color=red>UnknownHostException!</color>\nCould not contact Microsoft's auth servers.\nCheck your internet connection and restart QuestCraft.";
+            loginText.text = "<color=red>UnknownHostException!</color>\nCould not contact Microsoft's auth servers.\nCheck your internet connection and restart PortalCraft.";
             return;
         }
         

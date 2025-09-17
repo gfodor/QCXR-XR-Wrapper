@@ -85,28 +85,28 @@ MonoBehaviour:
     translations: []
   - key: Legal Header
     exportedFromTable: Main
-    sourceString: 'Welcome to QuestCraft!
+    sourceString: 'Welcome to PortalCraft!
 
       Before you can jump into the main
       experiance, we must go over some information with you, including our EULA and
       Privacy Policy.
 
 
-      First and foremost, we must state that QuestCraft,
-      QCXR, Digital Genesis, and any of the mods included within QuestCraft are NOT
+      First and foremost, we must state that PortalCraft,
+      QCXR, Portal VR, Inc., and any of the mods included within PortalCraft are NOT
       an official Minecraft product or service. We are not approved by or associated
-      with Mojang or Microsoft, and any issues reguarding or related to QuestCraft
-      are to be reported ONLY to QuestCraft staff and support, including issues related
+      with Mojang or Microsoft, and any issues reguarding or related to PortalCraft
+      are to be reported ONLY to PortalCraft staff and support, including issues related
       to mods, servers, and third-party libraries.'
     translations: []
   - key: Copyright Notice
     exportedFromTable: Main
     sourceString: 'Copyright Notice
 
-      QuestCraft utilizes many third-party Minecraft
+      PortalCraft utilizes many third-party Minecraft
       modifications, as well as open-source libraries in order to create a functional
       and smooth experiance for our players, these can be viewed on our GitHub (https://github.com/QuestCraftPlusPlus/)
-      or on the QuestCraft website at https://questcraft.org/open-source/.'
+      or on the PortalCraft website at https://portalvr.io/open-source/.'
     translations: []
   - key: Agree Statement
     exportedFromTable: Main

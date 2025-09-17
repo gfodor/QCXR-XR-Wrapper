@@ -47,7 +47,7 @@ public class LoadLog : MonoBehaviour
             form.AddField("content", logtext);
 
             using UnityWebRequest www = UnityWebRequest.Post("https://api.mclo.gs/1/log", form);
-            www.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+            www.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
             www.SendWebRequest();
 
             while (!www.isDone)

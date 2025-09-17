@@ -31,7 +31,7 @@ public class SkinHandler : MonoBehaviour
         async Task LoadImage(string username)
         {
             UnityWebRequest request = UnityWebRequestTexture.GetTexture("https://minotar.net/skin/" + username);
-            request.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+            request.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
             request.SendWebRequest();
 
             while (!request.isDone)
@@ -52,7 +52,7 @@ public class SkinHandler : MonoBehaviour
         async Task SetSkinType(string username)
         {
             UnityWebRequest www = UnityWebRequest.Get("https://starlightskins.lunareclipse.studio/info/user/" + username);
-            www.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+            www.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
             www.SendWebRequest();
 
             while (!www.isDone)

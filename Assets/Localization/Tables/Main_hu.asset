@@ -86,14 +86,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9427557482496
-    m_Localized: "\xDCdv\xF6zl\xFCnk a QuestCraftban!\nM\xE9g miel\u0151tt elkezden\xE9d
+    m_Localized: "\xDCdv\xF6zl\xFCnk a PortalCraftban!\nM\xE9g miel\u0151tt elkezden\xE9d
       a nagy kalandot, el\u0151sz\xF6r menj\xFCnk \xE1t p\xE1r fontos inform\xE1ci\xF3n,
       k\xF6zt\xFCk a felhaszn\xE1l\xF3i szerz\u0151d\xE9s \xE9s az adatv\xE9delmi
-      nyilatkozat.\n\nEl\u0151sz\xF6r is, el kell mondjuk hogy a QuestCraft, QCXR,
-      Digital Genesis \xE9s b\xE1rmelyik mod a QuestCrafton bel\xFCl NEM hivatalos
+      nyilatkozat.\n\nEl\u0151sz\xF6r is, el kell mondjuk hogy a PortalCraft, QCXR,
+      Portal VR, Inc. \xE9s b\xE1rmelyik mod a PortalCrafton bel\xFCl NEM hivatalos
       Minecraft szolg\xE1ltat\xE1s. Nincsen semmi f\xE9le k\xF6z\xFCnk vagy szerz\u0151d\xE9s\xFCnk
-      a Mojang vagy Microsofttal, b\xE1rmilyen probl\xE9m\xE1t ami a QuestCrafttal
-      kapcsolatos CSAKIS a QuestCraft staff csapat\xE1nak \xE9s seg\xEDt\u0151 csapat\xE1nak
+      a Mojang vagy Microsofttal, b\xE1rmilyen probl\xE9m\xE1t ami a PortalCrafttal
+      kapcsolatos CSAKIS a PortalCraft staff csapat\xE1nak \xE9s seg\xEDt\u0151 csapat\xE1nak
       bejelentend\u0151! Ezek lehetnek akar modokkal kapcsolatos, szerverekkel \xE9s
       harmadik f\xE9llel kapcsolatos gondok."
     m_Metadata:
@@ -105,12 +105,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9491252183040
-    m_Localized: "Szerz\u0151i jog\nQuestCraft t\xF6bb harmadik f\xE9lt\u0151l val\xF3
+    m_Localized: "Szerz\u0151i jog\nPortalCraft t\xF6bb harmadik f\xE9lt\u0151l val\xF3
       modifik\xE1ci\xF3kat, emellett t\xF6bb ny\xEDlt forr\xE1s\xFA k\xF6nyvt\xE1rakat
       haszn\xE1l, annak \xE9rdek\xE9ben, hogy j\xF3l m\u0171k\xF6d\u0151, sim\xE1n
       fut\xF3 j\xE1t\xE9kot adhassunk a j\xE1t\xE9kosainknak. Ezeket megn\xE9zheti
       a GitHub oldalunkon:(https://github.com/QuestCraftPlusPlus/) vagy pedig a honlapunkon:
-      https://questcraft.org/open-source/."
+      https://portalvr.io/open-source/."
     m_Metadata:
       m_Items: []
   - m_Id: 26999379222528000

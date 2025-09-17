@@ -8,10 +8,10 @@ public class OpenWebURL : MonoBehaviour
     }
     public void OpenX()
     {
-        Application.OpenURL("https://x.com/QuestCraftXR");
+        Application.OpenURL("https://x.com/PortalCraftXR");
     }
     public void OpenWebsite()
     {
-        Application.OpenURL("https://questcraft.org");
+        Application.OpenURL("https://portalvr.io");
     }
 }

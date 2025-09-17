@@ -29,7 +29,7 @@ public class APIHandler : MonoBehaviour
             {
                 Debug.Log("Downloading webp at url: \n" + url);
                 UnityWebRequest modImageLink = UnityWebRequest.Get(url);
-                modImageLink.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+                modImageLink.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
                 modImageLink.SendWebRequest();
 
                 while (!modImageLink.isDone)
@@ -46,7 +46,7 @@ public class APIHandler : MonoBehaviour
                 Debug.Log("Downloading gif at url: \n" + url);
 
                 UnityWebRequest modImageLink = UnityWebRequest.Get(url);
-                modImageLink.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+                modImageLink.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
                 modImageLink.SendWebRequest();
 
                 while (!modImageLink.isDone)
@@ -60,7 +60,7 @@ public class APIHandler : MonoBehaviour
             {
                 Debug.Log("Downloading a random format at url: \n" + url);
                 UnityWebRequest modImageLink = UnityWebRequestTexture.GetTexture(url);
-                modImageLink.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+                modImageLink.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
                 modImageLink.SendWebRequest();
 
                 while (!modImageLink.isDone)
@@ -79,7 +79,7 @@ public class APIHandler : MonoBehaviour
     public MetaParser GetModInfo(string modID)
     {
         UnityWebRequest www = UnityWebRequest.Get("https://api.modrinth.com/v2/project/" + modID);
-        www.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+        www.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
         www.SendWebRequest();
 
         while (!www.isDone)
@@ -94,7 +94,7 @@ public class APIHandler : MonoBehaviour
     public MetaInfo[] GetModDownloads(string modID)
     {
         UnityWebRequest www = UnityWebRequest.Get("https://api.modrinth.com/v2/project/" + modID + "/version");
-        www.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+        www.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
         www.SendWebRequest();
 
         while (!www.isDone)
@@ -109,7 +109,7 @@ public class APIHandler : MonoBehaviour
     public List<Deps> GetModDeps(string modID, string versionID)
     {
         UnityWebRequest www = UnityWebRequest.Get("https://api.modrinth.com/v2/project/" + modID + "/version/" + versionID);
-        www.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+        www.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
         www.SendWebRequest();
 
         while (!www.isDone)

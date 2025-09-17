@@ -42,7 +42,7 @@ public class LoadReleases : MonoBehaviour
             cooldown = true;
             
             UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/QuestCraftPlusPlus/Questcraft/releases");
-            www.SetRequestHeader("User-Agent", "QuestCraftPlusPlus/QuestCraft/" + Application.version + " (discord.gg/questcraft)");
+            www.SetRequestHeader("User-Agent", "PortalVR/PortalCraft/" + Application.version + " (discord.gg/questcraft)");
             www.SendWebRequest();
             
             while (!www.isDone)

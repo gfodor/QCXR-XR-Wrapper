@@ -33,7 +33,7 @@ public class VersionChecker : MonoBehaviour
             return;
         }
         
-        Debug.Log("QuestCraft update available.");
+        Debug.Log("PortalCraft update available.");
         updateText.text += " <color=#D70A53>| Update Available!</color>";
     }
 }
